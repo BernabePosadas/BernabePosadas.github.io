@@ -995,6 +995,17 @@
       }
 }
 
+@media (min-height: 400px) and (max-height : 500px){
+    .modal{
+        padding-top: 150px;
+    } 
+}
+
+@media (min-height: 501px) and (max-height : 700px){
+    .modal{
+        padding-top: 200px;
+    } 
+}
 
 
 
