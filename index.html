@@ -48,6 +48,10 @@
                 <a href="https://github.com/BernabePosadas">
                     <i class="fab fa-github"></i>
                     github
+                </a> &nbsp;
+                <a href="https://profile.codersrank.io/user/bernabeposadas">
+                    <i class="fas fa-code"></i>
+                    Coder's Rank
                 </a>
             </h5><br>
             <hr>
@@ -56,12 +60,12 @@
             <h2 class="project-title">Projects</h2>
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <img class="project-image-rectangle" src="Images/CuttleFish.png">
+                    <img id="cuttlefish" class="project-image-rectangle" src="Images/CuttleFish.png" alt="CuttleFish">
                     <h3><a href="https://github.com/BernabePosadas/CuttleFish">CuttleFish</a></h3>
                     <p>A Thesis Project that aims to encode secret data from a uncompressed AVI file</p>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <img class="project-image-rectangle" src="Images/hanako_portrait.png">
+                    <img id="hanako" class="project-image-rectangle" src="Images/hanako_portrait.png" alt="Okuhana Hanako">
                     <h3><a href="https://github.com/BernabePosadas/OkuhanaHanako">Okuhana Hanako</a></h3>
                     <p>A hobby project. My personal discord bot created using node.js and discord.js</p>
                 </div>
@@ -69,28 +73,37 @@
             <div class="extras">
                 <h2>Other Works</h2>
                 <ul>
-                    <li> 
+                    <li>
                         Java
                         <ul>
-                            <li><a href="https://github.com/BernabePosadas/FirstJavaProject">First Java Project</a> - A small project requirements for my college course</li>
+                            <li><a href="https://github.com/BernabePosadas/FirstJavaProject">First Java Project</a> - A
+                                small project requirements for my college course</li>
                         </ul>
                     </li>
                     <li>
                         C#
                         <ul>
-                            <li><a href="https://github.com/BernabePosadas/REST_api_with_asp_net">REST API Development with ASP.NET</a> - A small work used as a practice to develop REST API</li>
+                            <li><a href="https://github.com/BernabePosadas/REST_api_with_asp_net">REST API Development
+                                    with ASP.NET</a> - A small work used as a practice to develop REST API</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+    <div id="imgModal" class="modal">
+        <span class="close">&times;</span>
+
+        <img class="modal-content" id="img01">
+
+        <div id="caption"></div>
+    </div>
     <div class="footer no-display">
         Copyright &copy; 2020 Bernabe Sy Posadas Jr.
     </div>
-    <script src="Scripts/main.js" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Scripts/main.js" async defer></script>
 </body>
 
 </html>
